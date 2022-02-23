@@ -1,11 +1,10 @@
 # Test
 
-Commandes utiles : 
+# Installation
 
-yarn cache clean 
+$ git clone
+$ yarn cache clean 
+$ yarn dev
+$ php bin/console doctrine:fixtures:load
+$ symfony server:start
 
-yarn dev
-
-symfony server:start
-
-php bin/console doctrine:fixtures:load
