@@ -73,7 +73,7 @@ class LienController extends AbstractController
 
         foreach ($clients as $client) {
             $first = 0;
-            if (count($client)> 1) {
+            if (count($client)> 30) {
                 $totalPrice = 0 ;
                 
                 foreach ($client as $row) {
